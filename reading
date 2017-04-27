@@ -1,0 +1,34 @@
+When ever you are trying to change the value of header from home
+you are defining the new name of the header in the Home.
+Then in hte Main comoponent you are defining a function to change the name
+Then in the Home you are calling that function decalred in the Main with a button
+click inside of Home
+
+componentWillMount(){
+	
+}
+
+componentDidMount(){
+	
+}
+
+componentWillReceiveProps(){
+	
+}
+
+
+shouldComponentUpdate(nextProps, nextState){
+	//if this returns true then the below methods will be executed
+}
+
+componentWillUpdate(nextProps, nextState){
+	
+}
+
+componentDidUpdate(prevProps, prevState){
+	
+}
+
+componentWillUnmount(){
+	
+}
